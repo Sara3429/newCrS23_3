@@ -1,0 +1,18 @@
+#SYSTEM = GRAphen
+ALGO = normal      #algorithm for electron optimization
+PREC = Accurate
+ISTART = 0        #without WAVECAR file
+ICHARG = 2        #the initial charge density
+ISPIN = 1         #non spin polarized
+ENCUT = 500.0       #cutoff energy and should be largest EnMAX in the POTCAR file
+ISIF = 2            #length and angle are important
+IBRION = 0           #no molcular dynamic
+NSW = 100           #the number of iteration steps to improve the structure
+POTIM = 0.1          # accuracy of simulation at each step
+NBANDS = 8          #number of bands and usually can be between 8 to 12
+LREAL = .FALSE.       #virtual methods for electronic computingf
+LWAVE = .TRUE.      #Lowdin orthogonalization
+ISMEAR = 0          # no using of Gaussian smearing method
+LCHARG = .TRUE.     # useing of CHGCAR file
+
+
